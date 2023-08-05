@@ -1,0 +1,92 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+
+body {
+  background-color: rgba(20, 116, 233, 0.856);
+  color: #484848;
+  font-family: 'Lato', sans-serif;
+  padding: 1em;
+  line-height: 1.5;
+}
+.my-icon::before {
+  font-family: "Font Awesome 5 Free";
+  content: icon;
+  display: inline-block;
+  margin-right: 5%;
+}
+.flex {
+  background: #fdfdfd;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items:center;
+  margin: 0 auto;
+  border-radius:5px;
+}
+.element-center {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.typewrite {
+    font-size: 16pt;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-top: 0.3em;
+}
+
+#inputs {
+    padding: 10px;
+}
+
+input,
+button {
+  font-size: .85em;
+  padding: .65em 1em;
+  border-radius: .3em;
+  outline: 0;
+}
+input {
+  border: 2px solid #dcdcdc;
+  margin-right: 1em;
+}
+
+button {
+    color: white;
+    background: #508abc;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+label {
+    font-size: 2em;
+}
+
+#btnDeposit, #btnWithdraw {
+    width: 8em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ebe8e8;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
